@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>沈勤勤 Shirley 的个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --primary: #e3f1fb;
+            --accent: #90c8f6;
+            --text: #20405a;
+            --block-bg: #fff;
+            --shadow: 0 2px 8px rgba(144, 200, 246, 0.08);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', 'Noto Sans SC', 'Arial', sans-serif;
+            background: var(--primary);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 750px;
+            margin: 36px auto;
+            background: var(--block-bg);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            padding: 32px 28px;
+        }
+        h1, h2 {
+            color: #2270ad;
+            margin-top: 0;
+        }
+        .switch-btn {
+            float: right;
+            margin-top: 12px;
+            margin-left: 12px;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .switch-btn:hover {
+            background: #1361bf;
+        }
+        ul, ol {
+            margin: 0 0 12px 25px;
+        }
+        .item-label {
+            font-weight: bold;
+            width: 96px;
+            display: inline-block;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 18px 6px;
+                max-width: 100vw;
+            }
+            .item-label {
+                width: 78px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <button class="switch-btn" id="langToggle">English</button>
+    <div id="zh-content">
+        <h1>沈勤勤 Shirley</h1>
+        <p>
+            <span class="item-label">就读院校：</span>华东政法大学<br>
+            <span class="item-label">就读专业：</span>司法会计专业
+        </p>
+        <p>
+            <span class="item-label">主修课程：</span>税法、中级财务会计、基础会计、统计学、概率论、管理学、微观经济学、���性代数等
+        </p>
+        <p>
+            <span class="item-label">联系方式：</span>
+            <a href="mailto:18877336800@163.com">18877336800@163.com</a>
+        </p>
+        <p>
+            <span class="item-label">技能：</span>Python、摄影、使用 Excel、写作
+        </p>
+        <h2>当前职务</h2>
+        <ul>
+            <li>华东政法大学校学生会综合事务部财务工作人员</li>
+            <li>华东政法大学校心理协会办公室副部长</li>
+            <li>华东政法大学商学院司法会计专业党支部“选苗育苗”活动组工作人员</li>
+            <li>新创社团支部副书记</li>
+        </ul>
+        <h2>志愿服务</h2>
+        <ul>
+            <li>上海长三角青浦新城半程马拉松赛志愿者</li>
+            <li>上海女子半程马拉松赛志愿者</li>
+            <li>上海虹口10公里精英赛志愿者</li>
+            <li>上海 Top Run 10公里精英赛志愿者</li>
+            <li>上海 GREENEXT“问道可持续”主题展志愿者等</li>
+        </ul>
+        <h2>获奖情况</h2>
+        <ol>
+            <li>华东政法大学校学生会2024-2025年度优秀志愿者</li>
+            <li>华东政法大学商学院第35期入党积极分子培训班“优秀小组”组员</li>
+            <li>华东政法大学商学院羽毛球新生杯混双冠军</li>
+            <li>2024年长三角青浦新城半程马拉松赛优秀志愿者</li>
+            <li>华东政法大学第二届全国大学生职业规划大赛商学院成长赛道二等奖</li>
+            <li>华东政法大学第二十届“青莲杯”校园廉洁文化创建活动二等奖</li>
+        </ol>
+        <p>
+            <span class="item-label">爱好：</span>听音乐、摄影、打排球
+        </p>
+    </div>
+
+    <div id="en-content" style="display:none;">
+        <h1>Shen Qinqin Shirley</h1>
+        <p>
+            <span class="item-label">University:</span> East China University of Political Science and Law<br>
+            <span class="item-label">Major:</span> Forensic Accounting
+        </p>
+        <p>
+            <span class="item-label">Core Courses:</span> Tax Law, Intermediate Financial Accounting, Basic Accounting, Statistics, Probability Theory, Management, Microeconomics, Linear Algebra, etc.
+        </p>
+        <p>
+            <span class="item-label">Contact:</span>
+            <a href="mailto:18877336800@163.com">18877336800@163.com</a>
+        </p>
+        <p>
+            <span class="item-label">Skills:</span> Python, Photography, Excel, Writing
+        </p>
+        <h2>Current Positions</h2>
+        <ul>
+            <li>Finance Staff, Comprehensive Affairs Department, Student Union of ECUPL</li>
+            <li>Deputy Head, Office of Psychological Association, ECUPL</li>
+            <li>Member, “Selection and Training” Activity Group, Party Branch of Forensic Accounting, School of Business, ECUPL</li>
+            <li>Deputy Secretary, New Society Branch</li>
+        </ul>
+        <h2>Volunteering</h2>
+        <ul>
+            <li>Volunteer, Yangtze River Delta Qingpu New Town Half Marathon</li>
+            <li>Volunteer, Shanghai Women’s Half Marathon</li>
+            <li>Volunteer, Shanghai Hongkou 10km Elite Race</li>
+            <li>Volunteer, Shanghai Top Run 10km Elite Race</li>
+            <li>Volunteer, GREENEXT “Quest for Sustainability” Expo</li>
+        </ul>
+        <h2>Awards</h2>
+        <ol>
+            <li>Excellent Volunteer, Student Union of ECUPL (2024-2025)</li>
+            <li>Outstanding Group Member, 35th Party Activist Training, School of Business, ECUPL</li>
+            <li>Champion, Mixed Doubles, Freshmen Badminton Cup, School of Business, ECUPL</li>
+            <li>Excellent Volunteer, 2024 Qingpu New Town Half Marathon</li>
+            <li>Second Prize, Growth Track, School of Business, ECUPL, 2nd National Undergraduate Career Planning Competition</li>
+            <li>Second Prize, 20th “Qinglian Cup” Campus Integrity Culture Creation, ECUPL</li>
+        </ol>
+        <p>
+            <span class="item-label">Hobbies:</span> Listening to music, Photography, Volleyball
+        </p>
+    </div>
+</div>
+<script>
+    // 中英文切换
+    const zh = document.getElementById('zh-content');
+    const en = document.getElementById('en-content');
+    const btn = document.getElementById('langToggle');
+    let isZh = true;
+    btn.onclick = function() {
+        isZh = !isZh;
+        if (isZh) {
+            zh.style.display = '';
+            en.style.display = 'none';
+            btn.textContent = 'English';
+            document.title = "沈勤勤 Shirley 的个人主页";
+        } else {
+            zh.style.display = 'none';
+            en.style.display = '';
+            btn.textContent = '中文';
+            document.title = "Shen Qinqin Shirley | Personal Homepage";
+        }
+    };
+</script>
+</body>
+</html>
