@@ -56,6 +56,13 @@
             width: 96px;
             display: inline-block;
         }
+        .last-update {
+            margin-top: 42px;
+            text-align: right;
+            color: #757575;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
         @media (max-width: 600px) {
             .container {
                 padding: 18px 6px;
@@ -63,6 +70,10 @@
             }
             .item-label {
                 width: 78px;
+            }
+            .last-update {
+                font-size: 14px;
+                margin-top: 28px;
             }
         }
     </style>
@@ -77,7 +88,7 @@
             <span class="item-label">就读专业：</span>司法会计专业
         </p>
         <p>
-            <span class="item-label">主修课程：</span>税法、中级财务会计、基础会计、统计学、概率论、管理学、微观经济学、���性代数等
+            <span class="item-label">主修课程：</span>税法、中级财务会计、基础会计、统计学、概率论、管理学、微观经济学、线性代数等
         </p>
         <p>
             <span class="item-label">联系方式：</span>
@@ -107,12 +118,15 @@
             <li>华东政法大学商学院第35期入党积极分子培训班“优秀小组”组员</li>
             <li>华东政法大学商学院羽毛球新生杯混双冠军</li>
             <li>2024年长三角青浦新城半程马拉松赛优秀志愿者</li>
-            <li>华东政法大学第二届全国大学生职业规划大赛商学院成长赛道二等奖</li>
+            <li>华东政法大学第二届全国大学生职业规划大赛商学院成长赛���二等奖</li>
             <li>华东政法大学第二十届“青莲杯”校园廉洁文化创建活动二等奖</li>
         </ol>
         <p>
             <span class="item-label">爱好：</span>听音乐、摄影、打排球
         </p>
+        <div class="last-update" id="zh-date">
+            最后更新日期：2026年3月20日
+        </div>
     </div>
 
     <div id="en-content" style="display:none;">
@@ -158,6 +172,9 @@
         <p>
             <span class="item-label">Hobbies:</span> Listening to music, Photography, Volleyball
         </p>
+        <div class="last-update" id="en-date">
+            Last updated: March 20, 2026
+        </div>
     </div>
 </div>
 <script>
